@@ -1,3 +1,4 @@
+package ru.otus.okb.dsl
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import kotlin.test.assertEquals
@@ -31,12 +32,12 @@ class DSLTest {
         assertEquals("Trava", Priroda.name)
         //assertTrue (
             //"Podorozhnik is Trava",
-            //Priroda.docherniy.first { it.name == "Trava" } != null)
+            //Priroda.docherniy.first { it.name == "Trava" } != null
     }
 }
 
 private fun rasteniye(function: RasteniyeDSL.() -> Unit): Rasteniye = RasteniyeDSL().apply(function).build()
-
+/**
 abstract class PlantDSL {
     var name: String = ""
     var height: Double = 0.0
@@ -50,7 +51,6 @@ abstract class PlantDSL {
     }
     abstract fun build(): Plant
 }
-
 class RasteniyeDSL: PlantDSL() {
     override fun build(): Rasteniye = Rasteniye(name, height, docherniy.toList())
 
@@ -66,7 +66,6 @@ class GrassDSL: PlantDSL() {
 class FlowerDSL: PlantDSL() {
     override fun build(): Flower = Flower (name, height, docherniy.toList())
 }
-
 sealed interface IPlant
 sealed class Plant(
     val name: String,
@@ -77,3 +76,4 @@ sealed class Plant(
 class Rasteniye (name: String, height: Double, docherniy: List<Plant> = emptyList()): Plant(name, height, docherniy)
 class Grass (name: String, height: Double, docherniy: List<Plant> = emptyList()): Plant(name, height, docherniy)
 class Flower (name: String, height: Double, docherniy: List<Plant> = emptyList()): Plant(name, height, docherniy)
+ **/
