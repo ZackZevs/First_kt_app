@@ -14,9 +14,9 @@ fun main() {
     val obj2 = Rasteniya.Grass()
     val obj3 = Rasteniya.Bush()
     display(obj1)
-    obj1.height()
+    obj1.heightt()
     display(obj2)
-    obj2.stem()
+    obj2.stemm()
     display(obj3)
-    obj3.s1ze()
+    obj3.sizee()
     }
