@@ -5,10 +5,10 @@ abstract class PlantDSL {
     var height: Double = 0.0
     var docherniy: MutableList<Plant> = mutableListOf()
 
-    infix fun add(pl: Plant) {
+    fun add(pl: Plant) {
         docherniy.add(pl)
     }
-    infix fun add(pld: PlantDSL) {
+    fun add(pld: PlantDSL) {
         add(pld.build())
     }
     abstract fun build(): Plant

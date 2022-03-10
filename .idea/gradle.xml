@@ -9,7 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/GG" />
+            <option value="$PROJECT_DIR$/Trening" />
+            <option value="$PROJECT_DIR$/Trening1" />
+            <option value="$PROJECT_DIR$/m1-sealed-class" />
             <option value="$PROJECT_DIR$/m2_DSL" />
+            <option value="$PROJECT_DIR$/untitled" />
+            <option value="$PROJECT_DIR$/untitled1" />
           </set>
         </option>
       </GradleProjectSettings>

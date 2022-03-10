@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FirstTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-23T12:20:25" hostname="DESKTOP-6FTQTUB" time="0.032">
-  <properties/>
-  <testcase name="firstTest" classname="FirstTest" time="0.032"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
