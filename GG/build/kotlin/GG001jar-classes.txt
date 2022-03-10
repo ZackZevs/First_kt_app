@@ -1,0 +1,1 @@
+C:\Users\zheka\IdeaProjects\First_kt_app\GG\build\classes\kotlin\main\Stroki$Chisla.class;C:\Users\zheka\IdeaProjects\First_kt_app\GG\build\classes\kotlin\main\Stroki.class;C:\Users\zheka\IdeaProjects\First_kt_app\GG\build\classes\kotlin\main\TreningKt.class

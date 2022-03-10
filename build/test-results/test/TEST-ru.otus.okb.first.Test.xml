@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.otus.okb.first.Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-02T14:52:00" hostname="DESKTOP-6FTQTUB" time="0.028">
+  <properties/>
+  <testcase name="Test" classname="ru.otus.okb.first.Test" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
